@@ -101,12 +101,10 @@ function gotResults(error, result) {
         // updated to work with newer version of ml5
         // label = result;
         label = result[0].label;
-        if (trainingComplete === true) {
             const key = label.toLowerCase().trim() ;
             if(resultsMap.hasOwnProperty(key)){
                 divResults.html(resultsMap.key);
             }
-        }
         classifier.classify(gotResults);
     }
 }

@@ -80,16 +80,16 @@ function draw() {
   image(video, 0, 0, 320, 240);
 }
 
-function whileTraining(loss) {
-  if (loss == null) {
-    trainingComplete = true
-    console.log('Training Complete');
-    classifier.classify(gotResults);
-    return;
-  }
-  console.log(loss);
-  trainingComplete = false
-}
+// function whileTraining(loss) {
+//  if (loss == null) {
+//    trainingComplete = true
+//    console.log('Training Complete');
+//    classifier.classify(gotResults);
+//    return;
+//  }
+//  console.log(loss);
+//  trainingComplete = false
+//}
 
 function gotResults(error, result) {
   if (error) {

@@ -13,7 +13,7 @@ let labelshoes = '<a href="https://www.vinted.fr/femmes/baskets-baskets/10196491
 let labelbag = '<a href="https://www.vinted.fr/femmes/sacs-a-main/1041296823-sac-a-main-ou-bandouliere-noir-kamila-nat-et-nin" target="_blank">Find this Nat and Nin bag on Vinted!</a>';
 
 function modelReady() {
-  console.log('Model is ready!!!');
+  console.log('Model is ready!');
   classifier.load('./model.json', customModelReady);
 }
 

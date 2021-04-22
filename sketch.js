@@ -14,13 +14,13 @@ let labelbag = '<a href="https://www.vinted.fr/femmes/sacs-a-main/1041296823-sac
 
 function modelReady() {
   console.log('Model is ready!');
-  classifier.load('./model.json', customModelReady);
+  classifier.load('model.json', customModelReady);
 }
 
-function weightReady() {
-  console.log('Weights are loaded!');
-  classifier.load('./model.weights.bin', customModelReady);
-}
+//function weightReady() {
+//  console.log('Weights are loaded!');
+// classifier.load('./model.weights.bin', customModelReady);
+//}
 
 function customModelReady() {
   console.log('Custom Model is ready!');

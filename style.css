@@ -1,0 +1,88 @@
+html, body {
+  background-color: #5982A6;
+  font-family: 'Rufina', serif;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover,a:active,a:focus {
+  color: lightgray;
+  text-decoration: none;
+}
+
+button {
+  border: solid;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h1 {
+  background-color: #A67E5A;
+  color: white;
+  font-size: 60px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 svg {
+  height: 45px;
+  width: 45px;
+}
+
+h2 {
+  color: white;
+  font-size: 23px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.buttons.actions {
+  background-color: #A67E5A;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.resultsLink {
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}

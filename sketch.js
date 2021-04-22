@@ -17,6 +17,11 @@ function modelReady() {
   classifier.load('./model.json', customModelReady);
 }
 
+function weightReady() {
+  console.log('Weights are loaded!');
+  classifier.load('./model.weights.bin', customModelReady);
+}
+
 function customModelReady() {
   console.log('Custom Model is ready!');
   label = 'model ready';
